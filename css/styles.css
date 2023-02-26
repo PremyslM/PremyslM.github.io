@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  border-radius: 10px;
+}
+
+body {
+  text-align: center;
+}
+
+h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #FE5722;
+}
+
+a {
+  color: #FE5722;
+  text-decoration: none;
+}
+
+hr {
+  border-top: dotted 2px;
+  color: gray;
+  width: 10%;
+  margin: 0 auto 0 auto;
+  margin-bottom: 40px;
+}
+
+.top-container {
+  background-color: #F5F5F5;
+  padding-top: 150px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+
+}
+
+.profile-photo {
+  width: 40%;
+}
+
+.comp-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.brain-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.python-img{
+  position: absolute;
+  left: 500px;
+}
+
+.swift-img{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 30px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile {
+  width: 25%;
+  margin: 30px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.btn {
+  margin-top: 40px;
+}
+
+
+#my-name {
+  font-size: 4.374em;
+}
+
+#pro {
+  text-decoration: underline;
+}
+
+#my-skills-title {
+  font-size: 2em;
+}
