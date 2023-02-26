@@ -2,63 +2,223 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="author: " content="Přemysl Mikulenka">
+    <meta name="author" content="Přemysl Mikulenka">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Přemysl Mikulenka 🦄🇨🇿</title>
   </head>
   <body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+<nav id="navbar" class="navbar"><a href="#"></a></nav>
+<div class="container">
+  <!--=============== NAVIGATION MENU ===============-->
 
-    <div class="top-container">
-      <img class="swift-img" src="images/swift.png" alt="swift-img">
+  <div class="menu">
+    <a href="#welcome-section" class="menu-icon fa-solid fa-house"></a>
+    <a href="#about" class="menu-icon fa-solid fa-user"></a>
+    <a href="#projects" class="menu-icon fa-solid fa-code"></a>
+    <a href="#experience" class="menu-icon fa-solid fa-briefcase"></a>
+    <a href="#contact" class="menu-icon fa-solid fa-envelope"></a>
+  </div>
 
-      <h1 id="my-name">I'm Premysl</h1>
-      <p>a <span id="pro">pro</span>grammer</p>
-      <img class="python-img" src="images/python.png" alt="python-img">
-      <img src="images/mountain.png" alt="mountain-img">
-    </div>
+  <!--=============== MAIN "WINDOW" ===============-->
 
+  <div class="portfolio">
+    <!--=============== HEADER SECTION ===============-->
 
-    <div class="middle-container">
-
-      <div class="profile">
-        <img class="profile-photo" src="images/profile_photo.jpg" alt="ME">
-        <h2>Hello.</h2>
-        <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    <section class="header">
+      <img class="header-img" src="images/me.jpg"/>
+      <h1 class="myname">Přemysl Mikulenka</h1>
+      <h2>iOS developer</h2>
+      <div class="socials">
+        <a href="#" target="_blank" class="fa-brands fa-linkedin-in" id="profile-link"></a>
+        <a href="#" target="_blank" class="fa-brands fa-github"></a>
+        <a href="#" target="_blank" class="fa-brands fa-codepen"></a>
       </div>
+      <a href="" class="cta">DownIoad CV</a>
+    </section>
 
-      <hr>
+    <!--=============== CONTENT SECTION ===============-->
 
-      <div class="skills">
-        <h2 id="my-skills-title">My Skills.</h2>
-        <div class="skill-row">
-          <img class="comp-img" src="images/computer.png" alt="comp">
-          <h3>Lorem & Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+    <div class="content">
+      <!--=============== HOME ===============-->
+
+      <section class="content-card home" id="welcome-section">
+        <h1>Hello, I am Premysl</h1>
+      </section>
+
+      <!--=============== ABOUT ME ===============-->
+
+      <section class="content-card about" id="about">
+        <h1>About me</h1>
+        <div class="about-item about-me">
+          <p>
+            I'm an avid programmer on iOS and Android platforms, which constantly motivates me to seek out new technologies and trends in the field. I have experience in mobile app development and am always looking to improve my skills and knowledge. In addition, I enjoy creating my own predictive models which I leverage in my projects.
+          </p>
+          <p>
+          I am also an avid runner who enjoys every mile. Running for me is not only a way to keep my body in shape, but also a way to relieve stress and improve my mental well-being. I want to keep going.
+          </p>
+          <p>
+            Although I'm a good technical specialist, I'm not afraid of any kind of challenge in communication and cooperation with people. I can use my soft skills effectively in solving problems, negotiating with colleagues and partners, and presenting the results of my work. Thanks to these skills I am able to create a pleasant and productive working atmosphere in which common goals can be achieved.
+          </p>
         </div>
-        <div class="skill-row">
-          <img class="brain-img" src="images/brain.png" alt="brain">
-          <h3>Lorem Ipsum Dolor</h3>
-          <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        <div class="col-2">
+          <div class="about-item skills">
+            <h1>Skills</h1>
+            <span class="skill">Swift (UIKit, SiwiftUI)</span>
+            <span class="skill">Objective-C</span>
+            <span class="skill">Python</span>
+            <span class="skill">ML/NLP</span>
+            <span class="skill">Java</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">C/C#/C++</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Rust</span>
+            <span class="skill">React</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Git</span>
+            <span class="skill">API</span>
+            <span class="skill">Unix/Linux</span>
+            <span class="skill">HTML/CSS</span>
+            <span class="skill">Time Managment</span>
+            <span class="skill">Communication</span>
+          </div>
+
+          <div class="about-item languages">
+            <h1>Languages</h1>
+            <div class="language">
+              <p>czech</p>
+              <span class="bar"><span class="czech"></span></span>
+            </div>
+            <div class="language">
+              <p>english</p>
+              <span class="bar"><span class="english"></span></span>
+            </div>
+            <div class="language">
+              <p>german</p>
+              <span class="bar"><span class="german"></span></span>
+            </div>
+            <div class="language">
+              <p>japanese</p>
+              <span class="bar"><span class="japanese"></span></span>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <hr>
+      <!--=============== PROJECTS ===============-->
 
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-      </div>
+      <section class="content-card projects" id="projects">
+        <h1>Projects</h1>
+        <div class="col-2 project-list">
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/nietoperq/pen/BaPJqGW-512.webp?version=1674304822" alt="" />
+            <div class="overlay">
+              <div class="project-description">
+                <h3>Project 1</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nisi aperiam voluptate accusamus velit omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/nietoperq/pen/GRBOjyV-512.webp?version=1674084446" alt="" />
+            <div class="overlay">
+              <div class="project-description">
+                <h3>Project 2</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nisi aperiam voluptate accusamus velit omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/nietoperq/pen/dyjWxgX-512.webp?version=1673554073" alt="" />
+            <div class="overlay">
+              <div class="project-description">
+                <h3>Project 3</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nisi aperiam voluptate accusamus velit omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/nietoperq/pen/vYagdwo-512.webp?version=1673549480" alt="" />
+            <div class="overlay">
+              <div class="project-description">
+                <h3>Project 4</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nisi aperiam voluptate accusamus velit omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/PremyslM">see more...</a>
+      </section>
+
+      <!--=============== EXPERIENCE ===============-->
+
+      <section class="content-card experience" id="experience">
+        <h1>Experience</h1>
+        <div class="timeline">
+          <div class="timeline-items">
+            <div class="timeline-item">
+              <div class="timeline-date">2022 - 2023</div>
+              <div class="timeline-content">
+                <h3>justnonecompany</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ab iusto accusantium nostrum eligendi debitis quisquam.
+                  Corporis at voluptatem culpa officia.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">2021 - 2022</div>
+              <div class="timeline-content">
+                <h3>matsworld.</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ab iusto accusantium nostrum eligendi debitis quisquam.
+                  Corporis at voluptatem culpa officia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+
+      <section class="content-card contact" id="contact">
+        <h1>Contact</h1>
+        <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="input-box">
+            <input type="text" class="text-input" name="name" placeholder="Name" />
+          </div>
+          <div class="input-box">
+            <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="subject" class="text-input" name="subject" id="subject" placeholder="Subject" />
+          </div>
+          <div class="input-box">
+            <textarea name="text" class="message" placeholder="Message..."></textarea>
+          </div>
+          <div class="input-box">
+            <input type="submit" class="submit-btn" id="submit" value="submit" />
+          </div>
+        </form>
+      </section>
     </div>
-
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/PremyslMik">Twitter</a>
-      <p>2023&copy, Přemysl Mikulenka.</p>
-    </div>
-
+  </div>
+</div>
   </body>
 </html>
