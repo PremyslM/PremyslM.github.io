@@ -5,9 +5,9 @@
 /*=============== VARIABLES ===============*/
 
 :root {
-    --accent-color: #00ADB5;
-    --background-color: #393E46;
-    --background-color-2: #222831;
+    --accent-color: #222831;
+    --background-color: #222831;
+    --background-color-2: #000;
   --light-grey: rgb(194, 194, 194);
   --border-radius: 30px;
 }
@@ -130,7 +130,7 @@ h2 {
 }
 
 .header-img {
-  width: 150px;
+  width: 300px;
   height: auto;
   border-radius: 50%;
   margin: 10px;
