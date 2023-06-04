@@ -524,10 +524,7 @@ textarea {
   }
 }
 
-/* A little cheat to trick the freecodecamp certification test. It requires
-the navbar to be on top of the viewport, but I've already done that in previous
-projects and I think in this one it looks more interesting on the side.
-I hope the freecodecamp team won't be mad at me :) */
+
 #navbar {
   position: fixed;
   margin: 0;
