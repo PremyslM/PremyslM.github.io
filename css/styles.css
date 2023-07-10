@@ -5,10 +5,10 @@
 /*=============== VARIABLES ===============*/
 
 :root {
-    --accent-color: #222831;
-    --background-color: #222831;
+    --accent-color: #EB3B58;
+    --background-color: #F0F0F0;
     --background-color-2: #000;
-  --light-grey: rgb(194, 194, 194);
+  --light-grey: #E0E0E0;
   --border-radius: 30px;
 }
 
