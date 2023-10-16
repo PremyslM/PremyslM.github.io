@@ -1,0 +1,186 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.terminal {
+    background-color: #000;
+    border-radius: 10px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.header {
+    background-color: #1e1e1e; /* Darker shade */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.close,
+.minimize,
+.expand {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transition: 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.close {
+    background-color: #ff5f57;
+}
+
+.close:hover {
+    background-color: #d64242; /* Darker shade on hover */
+}
+
+.minimize {
+    background-color: #ffbd2e;
+}
+
+.minimize:hover {
+    background-color: #e5a526; /* Darker shade on hover */
+}
+
+.expand {
+    background-color: #27c93f;
+}
+
+.expand:hover {
+    background-color: #219834; /* Darker shade on hover */
+}
+
+.ascii-art {
+    font-size: 1vw; /* Default font size */
+    white-space: pre-wrap; /* This will make sure the content wraps */
+    word-wrap: break-word; /* This will break words properly */
+}
+
+/* Adjust font size for smaller screens */
+@media only screen and (max-width: 600px) {
+    .ascii-art {
+        font-size: 1.7vw;
+    }
+}
+
+/* Adjust font size for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .ascii-art {
+        font-size: 1.6vw;
+    }
+}
+
+/* Adjust font size for larger screens */
+@media only screen and (min-width: 901px) {
+    .ascii-art {
+        font-size: 1vw;
+    }
+}
+
+.content {
+    padding: 20px;
+    color: #00ff00;
+    height: calc(100vh - 50px); /* Subtracting the height of header */
+    overflow-y: auto; /* Scroll if content overflows */
+}
+
+.cursor {
+    background-color: #00ff00;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%,
+    49% {
+        opacity: 1;
+    }
+    50%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.header {
+    background-color: #282c34;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    height: 14px;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px; /* Increased gap */
+}
+
+.close,
+.minimize,
+.expand {
+    width: 14px; /* Increased size */
+    height: 14px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+.close {
+    background-color: #fc5f56;
+}
+
+.close:hover {
+    background-color: #eb4d44; /* Darker shade on hover */
+}
+
+.minimize {
+    background-color: #fecb2e;
+}
+
+.minimize:hover {
+    background-color: #e4b526; /* Darker shade on hover */
+}
+
+.expand {
+    background-color: #2bca3b;
+}
+
+.expand:hover {
+    background-color: #24ad31; /* Darker shade on hover */
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+    border-bottom: 1px dashed #00ff00;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #00cc00;
+    background-color: #222;
+    border-bottom: 1px solid #00cc00;
+}
+
+span[onclick]:hover {
+    cursor: pointer;
+    background-color: rgba(0, 255, 0, 0.2);
+}
