@@ -1,239 +1,45 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Přemysl Mikulenka">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-    <title>Přemysl Mikulenka 🦄🇨🇿</title>
-  </head>
-  <body>
-<nav id="navbar" class="navbar"><a href="#"></a></nav>
-<div class="container">
-  <!--=============== NAVIGATION MENU ===============-->
-
-  <div class="menu">
-    <a href="#welcome-section" class="menu-icon fa-solid fa-house"></a>
-    <a href="#about" class="menu-icon fa-solid fa-user"></a>
-    <a href="#projects" class="menu-icon fa-solid fa-code"></a>
-    <a href="#experience" class="menu-icon fa-solid fa-briefcase"></a>
-    <a href="#contact" class="menu-icon fa-solid fa-envelope"></a>
-  </div>
-
-  <!--=============== MAIN "WINDOW" ===============-->
-
-  <div class="portfolio">
-    <!--=============== HEADER SECTION ===============-->
-
-    <section class="header">
-      <img class="header-img" src="images/profile-photo.jpeg"/>
-      <h1 class="myname">Přemysl Mikulenka</h1>
-      <h2>iOS developer</h2>
-      <div class="socials">
-        <a href="#" target="_blank" class="fa-brands fa-linkedin-in" id="profile-link"></a>
-        <a href="#" target="_blank" class="fa-brands fa-github"></a>
-        <a href="#" target="_blank" class="fa-brands fa-codepen"></a>
-      </div>
-      <a href="" class="cta">DownIoad CV</a>
-    </section>
-
-    <!--=============== CONTENT SECTION ===============-->
-
-    <div class="content">
-      <!--=============== HOME ===============-->
-
-      <section class="content-card home" id="welcome-section">
-        <h1>Hello, I am Premysl</h1>
-      </section>
-
-      <!--=============== ABOUT ME ===============-->
-
-      <section class="content-card about" id="about">
-        <h1>About me</h1>
-        <div class="about-item about-me">
-          <p>
-            I'm an avid programmer on iOS and Android platforms, which constantly motivates me to seek out new technologies and trends in the field. I have experience in mobile app development and am always looking to improve my skills and knowledge. In addition, I enjoy creating my own predictive models which I leverage in my projects.
-          </p>
-          <p>
-          I am also an avid runner who enjoys every mile. Running for me is not only a way to keep my body in shape, but also a way to relieve stress and improve my mental well-being. I want to keep going.
-          </p>
-          <p>
-            Although I'm a good technical specialist, I'm not afraid of any kind of challenge in communication and cooperation with people. I can use my soft skills effectively in solving problems, negotiating with colleagues and partners, and presenting the results of my work. Thanks to these skills I am able to create a pleasant and productive working atmosphere in which common goals can be achieved.
-          </p>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link rel="stylesheet" href="../css/style.css" >
+<title>Document</title>
+</head>
+   <body>
+    <div class="terminal">
+        <div class="header">
+            <div class="buttons">
+                <div class="close"></div>
+                <div class="minimize"></div>
+                <div class="expand"></div>
+            </div>
+            <p>Terminal</p>
         </div>
-        <div class="col-2">
-          <div class="about-item skills">
-            <h1>Skills</h1>
-            <span class="skill">UIKi + SiwiftUI</span>
-            <span class="skill">Objective-C + Swift</span>
-            <span class="skill">Python</span>
-            <span class="skill">ML/NLP</span>
-            <span class="skill">Java</span>
-            <span class="skill">JavaScript</span>
-            <span class="skill">C/C#/C++</span>
-            <span class="skill">Node.js</span>
-            <span class="skill">Rust</span>
-            <span class="skill">React</span>
-            <span class="skill">SQL</span>
-            <span class="skill">Git</span>
-            <span class="skill">HTML/CSS</span>
-            <span class="skill">Time Managment</span>
-            <span class="skill">Communication</span>
-          </div>
-
-          <div class="about-item languages">
-            <h1>Languages</h1>
-            <div class="language">
-              <p>czech</p>
-              <span class="bar"><span class="czech"></span></span>
-            </div>
-            <div class="language">
-              <p>english</p>
-              <span class="bar"><span class="english"></span></span>
-            </div>
-            <div class="language">
-              <p>german</p>
-              <span class="bar"><span class="german"></span></span>
-            </div>
-            <div class="language">
-              <p>japanese</p>
-              <span class="bar"><span class="japanese"></span></span>
-            </div>
-          </div>
+        <div class="content">
+            <p class="output">
+                Last login: <span id="dateTime"></span>
+            <pre class="ascii-art">
+  
+$$$$$$$\                                                        $$\       $$\      $$\ $$\ $$\                 $$\                     $$\                
+$$  __$$\                                                       $$ |      $$$\    $$$ |\__|$$ |                $$ |                    $$ |               
+$$ |  $$ | $$$$$$\   $$$$$$\  $$$$$$\$$$$\  $$\   $$\  $$$$$$$\ $$ |      $$$$\  $$$$ |$$\ $$ |  $$\ $$\   $$\ $$ | $$$$$$\  $$$$$$$\  $$ |  $$\ $$$$$$\  
+$$$$$$$  |$$  __$$\ $$  __$$\ $$  _$$  _$$\ $$ |  $$ |$$  _____|$$ |      $$\$$\$$ $$ |$$ |$$ | $$  |$$ |  $$ |$$ |$$  __$$\ $$  __$$\ $$ | $$  |\____$$\ 
+$$  ____/ $$ |  \__|$$$$$$$$ |$$ / $$ / $$ |$$ |  $$ |\$$$$$$\  $$ |      $$ \$$$  $$ |$$ |$$$$$$  / $$ |  $$ |$$ |$$$$$$$$ |$$ |  $$ |$$$$$$  / $$$$$$$ |
+$$ |      $$ |      $$   ____|$$ | $$ | $$ |$$ |  $$ | \____$$\ $$ |      $$ |\$  /$$ |$$ |$$  _$$<  $$ |  $$ |$$ |$$   ____|$$ |  $$ |$$  _$$< $$  __$$ |
+$$ |      $$ |      \$$$$$$$\ $$ | $$ | $$ |\$$$$$$$ |$$$$$$$  |$$ |      $$ | \_/ $$ |$$ |$$ | \$$\ \$$$$$$  |$$ |\$$$$$$$\ $$ |  $$ |$$ | \$$\\$$$$$$$ |
+\__|      \__|       \_______|\__| \__| \__| \____$$ |\_______/ \__|      \__|     \__|\__|\__|  \__| \______/ \__| \_______|\__|  \__|\__|  \__|\_______|
+                                            $$\   $$ |                                                                                                    
+                                            \$$$$$$  |                                                                                                    
+                                             \______/                                                                                                           
+                </pre>
+            Check out my <a href="https://github.com/PremyslM">Github</a>, <a href="https://twitter.com/PremyslMik">Twitter</a><br><br>
+            </p>
+            <p class="typing"></p>
+            <p class="input"><span class="prompt">$</span> <span class="cursor"></span></p>
         </div>
-      </section>
-
-      <!--=============== PROJECTS ===============-->
-
-      <section class="content-card projects" id="projects">
-        <h1>Projects</h1>
-        <div class="col-2 project-list">
-          <div class="project-tile">
-            <img src="images/project_workout.png" alt="" />
-            <div class="overlay">
-              <div class="project-description">
-                <h3>Wobit</h3>
-                <p>
-                  Wobit aims to help individuals embrace an active 
-                  lifestyle and maintain regularity in their fitness routine. 
-                  Leveraging the capabilities of machine learning models.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="project-tile">
-            <img src="https://shots.codepen.io/nietoperq/pen/GRBOjyV-512.webp?version=1674084446" alt="" />
-            <div class="overlay">
-              <div class="project-description">
-                <h3>Project 2</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Nisi aperiam voluptate accusamus velit omnis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="project-tile">
-            <img src="https://shots.codepen.io/nietoperq/pen/dyjWxgX-512.webp?version=1673554073" alt="" />
-            <div class="overlay">
-              <div class="project-description">
-                <h3>Project 3</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Nisi aperiam voluptate accusamus velit omnis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="project-tile">
-            <img src="https://shots.codepen.io/nietoperq/pen/vYagdwo-512.webp?version=1673549480" alt="" />
-            <div class="overlay">
-              <div class="project-description">
-                <h3>Project 4</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Nisi aperiam voluptate accusamus velit omnis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="https://github.com/PremyslM">see more...</a>
-      </section>
-
-      <!--=============== EXPERIENCE ===============-->
-
-      <section class="content-card experience" id="experience">
-        <h1>Experience</h1>
-        <div class="timeline">
-          <div class="timeline-items">
-
-            <div class="timeline-item">
-              <div class="timeline-date">2023 - 2023</div>
-              <div class="timeline-content">
-                <h3>Valeo Vision - SQL Developer</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Ab iusto accusantium nostrum eligendi debitis quisquam.
-                  Corporis at voluptatem culpa officia.
-                </p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-date">2022 - 2023</div>
-              <div class="timeline-content">
-                <h3>justnonecompany</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Ab iusto accusantium nostrum eligendi debitis quisquam.
-                  Corporis at voluptatem culpa officia.
-                </p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-date">2021 - 2022</div>
-              <div class="timeline-content">
-                <h3>matsworld.</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Ab iusto accusantium nostrum eligendi debitis quisquam.
-                  Corporis at voluptatem culpa officia.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <!--=============== CONTACT ===============-->
-
-      <section class="content-card contact" id="contact">
-        <h1>Contact</h1>
-        <form class="form" id="form">
-          <div class="input-box">
-            <input type="text" class="text-input" name="name" placeholder="Name" />
-          </div>
-          <div class="input-box">
-            <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
-          </div>
-          <div class="input-box">
-            <input type="subject" class="text-input" name="subject" id="subject" placeholder="Subject" />
-          </div>
-          <div class="input-box">
-            <textarea name="text" class="message" placeholder="Message..."></textarea>
-          </div>
-          <div class="input-box">
-            <input type="submit" class="submit-btn" id="submit" value="submit" />
-          </div>
-        </form>
-      </section>
     </div>
-  </div>
-</div>
-  </body>
+</body>
+
+<script src="script.js"></script>
+
 </html>
