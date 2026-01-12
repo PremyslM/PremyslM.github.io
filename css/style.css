@@ -8,12 +8,22 @@
 
 /* Monospace / computer font */
 html,body{
-    height:100%;
+    /* prefer the dynamic viewport height on mobile, fallback to regular 100vh */
+    min-height:100dvh;
+    min-height:100vh;
+    height:auto;
+    /* ensure the background covers the entire canvas (prevents white strip on some mobile browsers) */
+    background: linear-gradient(180deg,var(--bg), #071124 70%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--bg);
 }
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg,var(--bg), #071124 70%);
+    /* keep body transparent so the root background is visible and consistent */
+    background: transparent;
     color: #e6eef8;
     font-family: 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace;
     -webkit-font-smoothing:antialiased;
@@ -147,8 +157,9 @@ main h2{
 }
 
 @media (max-width:900px){
-     body {
-         background: linear-gradient(180deg,var(--bg), #071124 0%);
+    /* smaller screens: keep the same root background but tighten the gradient stop */
+    html,body {
+        background: linear-gradient(180deg,var(--bg), #071124 0%);
     }
 }
 
