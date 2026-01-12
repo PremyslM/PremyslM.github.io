@@ -146,7 +146,7 @@ main h2{
 
 }
 
-@media (min-width:900px){
+@media (max-width:900px){
      body {
          background: linear-gradient(180deg,var(--bg), #071124 0%);
     }
