@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Monospace webfont (computer-like) -->
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+        <title>Přemysl Mikulenka — iOS Developer</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="name">Přemysl Mikulenka</h1>
+            <p class="tagline">iOS Developer — Swift, SwiftUI, UIKit</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about">
+            <h2>O mně</h2>
+            <p>Jsem iOS vývojář se zaměřením na čistý Swift, SwiftUI a ergonomické mobilní rozhraní. Rád tvořím malé, rychlé a použitelné aplikace.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Technologie</h2>
+            <ul class="skill-list">
+                <li>Swift</li>
+                <li>SwiftUI</li>
+                <li>UIKit</li>
+                <li>Combine</li>
+                <li>Core Data</li>
+                <li>Git</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Projekty</h2>
+            <div class="project-list">
+                <article class="project">
+                    <h3>Bla Bla Bla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, cum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, quos!</p>
+                    <a class="project-link" href="#">Ukázka / GitHub</a>
+                </article>
+
+                <article class="project">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam natus laborum cum accusamus consectetur earum consequatur sed ab officia totam. Lorem ipsum dolor sit amet.</p>
+                    <a class="project-link" href="#">Ukázka / GitHub</a>
+                </article>
+
+                <article class="project">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam natus laborum cum accusamus consectetur earum consequatur sed ab officia totam. Lorem ipsum dolor sit amet.</p>
+                    <a class="project-link" href="#">Ukázka / GitHub</a>
+                </article>
+
+                <article class="project">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam natus laborum cum accusamus consectetur earum consequatur sed ab officia totam. Lorem ipsum dolor sit amet.</p>
+                    <a class="project-link" href="#">Ukázka / GitHub</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">© <span id="year"></span> Přemysl Mikulenka</div>
+            <nav class="footer-nav" aria-label="Footer contacts">
+                <a class="footer-link" href="mailto:hello@example.com">
+                    <!-- mail icon -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M3 8.5V18a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21 6H3v2.5l9 6 9-6V6z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="footer-text">hello@example.com</span>
+                </a>
+
+                <a class="footer-link" href="https://github.com/your-username" target="_blank" rel="noopener">
+                    <!-- github icon -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M12 2C7.58 2 4 5.58 4 10c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.1 0 0 .67-.22 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.09.16 1.9.08 2.1.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38C17.71 16.53 20 13.54 20 10c0-4.42-3.58-8-8-8z" fill="currentColor"/>
+                    </svg>
+                    <span class="footer-text">github.com/your-username</span>
+                </a>
+
+                <a class="footer-link" href="#">CV</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        // small script to set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
