@@ -142,7 +142,14 @@ main h2{
 
 /* Responsive tweaks */
 @media (min-width:720px){
-    .project-list{ grid-template-columns: 1fr 1fr; }
+    .project-list{ grid-template-columns: 1fr 1fr; }   
+
+}
+
+@media (min-width:900px){
+     body {
+         background: linear-gradient(180deg,var(--bg), #071124 0%);
+    }
 }
 
 /* Small accessibility and focus styles */
